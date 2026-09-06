@@ -5,14 +5,7 @@ import "fmt"
 /*
 LRU Cache - Low Level Design
 
-Functional Requirements:
-1. Cache size should be configurable.
-2. Put(key, value) should add/update an element.
-3. Get(key) should return the value if present, otherwise -1.
-4. Recently accessed or written elements should become Most Recently Used (MRU).
-5. When capacity is full, the Least Recently Used (LRU) element should be evicted.
-
-
+See problem_statement.md for requirements and entity/class definitions.
 
 Design:
 We use two data structures together:
